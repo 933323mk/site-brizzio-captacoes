@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Entre em contato com a BRIZZIO CAPTAÇÕES. Remoção especializada 24 horas com discrição e segurança.">
+	<meta name="keywords" content="contato, remoção, captação, discrição, segurança">
+	<title>Contato - BRIZZIO CAPTAÇÕES</title>
+	<link rel="shortcut icon" type="image/png" href="images/logo-BC.png">	
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="tela">
+		<input type="checkbox" id="menu-toggle" class="menu-toggle" />
+		<label for="menu-toggle" class="hamburger-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+		<ul class="menu">
+			<li><a href="index.html">INÍCIO</a></li>
+			<li><a href="sobre-nos.html">SOBRE NÓS</a></li>
+			<li><a href="tratamento.html">TRATAMENTO</a></li>
+			<li><a href="unidades.html">UNIDADES</a></li>
+			<li><a href="perguntas-frequentes.html">PERGUNTAS FREQUENTES</a></li>
+			<li><a href="contato.html">CONTATO</a></li>
+		</ul>
+
+		<a href="http://api.whatsapp.com/send?phone=5511920043960&text=Olá%20BRIZZIO%20CAPTAÇÕES!%20Gostaria%20de%20saber%20mais%20informações%20sobre%20os%20serviços,%20vagas%20e%20unidades.%20Por%20favor." aria-label="Falar no WhatsApp">
+			<img class="botao-whats" src="images/whatsapp.png" alt="WhatsApp">
+		</a>
+
+		<h1 class="titulo-anuncio">Entre em Contato</h1>
+		<p class="subtitulo">Atendimento 24 horas disponível. Discrição e segurança garantidas.</p>
+
+		<div class="grid cols-2">
+			<div class="card">
+				<h3>Telefone</h3>
+				<p><strong>+55 (11) 9 2004-3960</strong></p>
+				<p>Disponível 24 horas, 7 dias por semana</p>
+			</div>
+			<div class="card">
+				<h3>WhatsApp</h3>
+				<p><strong>+55 (11) 9 2004-3960</strong></p>
+				<p>Atendimento via mensagem direto</p>
+			</div>
+		</div>
+
+		<div class="secao">
+			<h2>Envie uma Mensagem</h2>
+			<form method="POST" action="https://formsubmit.co/brizziocaptacoessp@gmail.com">
+				<div class="form-group">
+					<label for="nome">Nome Completo *</label>
+					<input type="text" id="nome" name="nome" required placeholder="Seu nome">
+				</div>
+
+				<div class="form-group">
+					<label for="email">E-mail *</label>
+					<input type="email" id="email" name="email" required placeholder="seu@email.com">
+				</div>
+
+				<div class="form-group">
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" name="telefone" placeholder="(11) 9 0000-0000">
+				</div>
+
+				<div class="form-group">
+					<label for="assunto">Assunto *</label>
+					<select id="assunto" name="assunto" required>
+						<option value="">Selecione um assunto</option>
+						<option value="Informações sobre serviços">Informações sobre serviços</option>
+						<option value="Internação voluntária">Internação voluntária</option>
+						<option value="Internação involuntária">Internação involuntária</option>
+						<option value="Parcerias">Parcerias</option>
+						<option value="Outro">Outro</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="mensagem">Mensagem *</label>
+					<textarea id="mensagem" name="mensagem" required placeholder="Descreva sua situação ou dúvida"></textarea>
+				</div>
+
+				<button type="submit" class="form-submit">Enviar Mensagem</button>
+			</form>
+		</div>
+
+		<footer>
+			<p>&copy; 2024 BRIZZIO CAPTAÇÕES. Todos os direitos reservados.</p>
+			<p>Remoção especializada 24 horas | Discrição e segurança garantidas</p>
+			<p><strong>Telefone:</strong> +55 (11) 9 2004-3960</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
